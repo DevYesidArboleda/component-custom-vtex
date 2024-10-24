@@ -1,0 +1,68 @@
+/** 
+    CSS MODULE: SE IMPORTA COMO UN COMPONENTE Y SE USA COMO UN OBJETO
+    import HelloWorld from './hello-world';
+
+    className={HelloWorldStyle.init}
+*/
+.init { 
+    margin: 50px 0;
+ }
+
+.notlook {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f8f9fa; /* Puedes cambiar el color de fondo */
+    padding: 10px;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); /* Para darle un poco de sombra */   
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+
+.imageProps {
+    width: 54px;
+    height: 54px;
+}
+
+.textProps {
+    font-size: .625rem;
+    line-height: .875rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    display: block;
+    color: #666;
+    text-transform: none;
+}
+
+.containerProps {
+    display: flex;
+    align-items: center;
+    flex-direction: column
+}
+
+.masterProps{
+    display: flex;
+    justify-content: center;
+}
+
+.masterPropsLook {
+    display: flex;
+    justify-content: center;
+}
+
+.containerPropsLook {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    max-width: 140px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.look{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
