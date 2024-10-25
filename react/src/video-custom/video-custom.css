@@ -1,0 +1,77 @@
+.init {
+    display: flex;
+    max-width: 1275px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.paginationDot--isActive {
+    background-color: black;
+}
+
+.videoContainer {
+    width: 674px;
+    height: 379px;
+    top: 0px;
+}
+
+.sliderLayoutContainer{
+    
+}
+
+.sliderLeftArrow{
+    left: 0;
+    background: linear-gradient(90deg, #ffff 0, rgba(255, 255, 255, 0) 100%) !important;
+    opacity: 1 !important;
+    width: 23%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.sliderRightArrow{
+    right: 0;
+    background: linear-gradient(270deg, #fff 0, rgba(255, 255, 255, 0) 100%) !important;
+    opacity: 1 !important;
+    width: 23%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.paginationDot {
+    height: .5em !important;
+}
+
+.caretIcon{
+    background-color: #e6e6e6 !important;
+    padding: 5px;
+}
+
+@media (max-width: 800px) {
+    .caretIcon{
+        display: none;
+    }
+    .slide {
+
+    }
+    .slide--firstVisible {
+        width: 10% !important;
+        padding-left: 2px !important;
+        padding-right: 2px !important;
+    }
+    
+  }
+
+  @media (max-width: 425px) {
+    .sliderTrack {
+        transform: none !important;
+        width: 100% !important;
+    }
+
+    .slide--firstVisible {
+        width: 100vw !important;
+        padding-left: 2px !important;
+        padding-right: 2px !important;
+    }
+  }

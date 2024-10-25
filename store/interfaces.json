@@ -1,5 +1,8 @@
 {
   "hello-react": {
     "component": "HelloWorld"
+  },
+  "video-react": {
+    "component": "VideoCustom"
   }
 }
